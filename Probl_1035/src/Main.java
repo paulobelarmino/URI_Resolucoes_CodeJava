@@ -10,12 +10,11 @@ public class Main {
         int D = leitor.nextInt();
         
         if( B > C &&  D > A && C + D > A + B &&  C >0 && D > 0 && A%2==0){
-            System.out.println( "Valores aceitos");
+            System.out.printf( "Valores aceitos%n");
         }else {
-            System.out.println("Valores nao aceitos");     
+            System.out.printf("Valores nao aceitos%n");     
             }
-        leitor.close();
-    }
+  }
        
 }
     
